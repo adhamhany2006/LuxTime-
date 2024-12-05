@@ -1,0 +1,194 @@
+/*Start Google Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+/*End Googal Font*/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box
+}
+h3{
+  padding: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 50px;
+  color: #4D2D143D;
+  text-transform: uppercase
+}
+.container{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container ul li{
+  display: inline-block;
+  margin: 10px;
+}
+.container ul li a{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #7f6355;
+  transition: 0.6s;
+}
+.container ul li a:hover{
+  transition: 0.6s;
+  background: #7f6355;
+  color: snow;
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  font-family: serif;
+}
+.logo{
+  font-family: "Lumanosimo", cursive;
+  font-weight: 800;
+  color: #7f6355;
+  font-size: 30px
+} 
+
+
+.contant{
+  background-image: url(img/men.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 27vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.text-contant span{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  color: snow;
+  margin: 15px;
+}
+.text-contant h1{
+  font-size: 50px;
+  font-weight: 800;
+  color: snow;
+  font-family: "Lumanosimo", cursive;
+  margin: 15px;
+}
+.text-contant p{
+  width: 450px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: snow;
+  margin-bottom: 25px;
+}
+.btn1{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  font-size: 25px;
+  background: #4e3322;
+  color: snow;
+  border: none;
+  transition: 0.6s;
+}
+.btn1:hover{
+  transition: 0.6s;
+  background: transparent;
+  border: solid 3px snow;
+  color: snow;
+}
+
+
+.nav-products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+.nav-products .active{
+  background: #4e3322;
+  color: snow;
+}
+.nav-products li{
+  display: inline-block;
+  margin: 15px;
+}
+.nav-products li a{
+  font-size: 22px;
+  border: solid 3px #4e3322;
+  padding: 5px;
+  color: #4e3322;
+  transition: 0.6s;
+}
+.nav-products li a:hover{
+  transition: 0.6s;
+  background: #4e3322;
+  color: snow;
+}
+ 
+ 
+ .products{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text-pro{
+  margin: 15px;
+  font-size: 25px;
+  color: #4e3322;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.textp-pro{
+  width: 250px;
+  margin: 15px;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px
+}
+.price-pro{
+  margin: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  color: #4e3322;
+  font-size: 20px
+}
+.price-pro del{
+  margin-right: 15px;
+  text-decoration: line-through;
+  color: darkred;
+  text-shadow: 0 0 0 #000;
+}
+.btn-pro{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 25px;
+  background: #4e3322;;
+  color: snow;
+  border: none;
+  border-radius: 25px;
+  transition: 0.6s;
+}
+.btn-pro:hover{
+  transition: 0.6s;
+  background: transparent;
+  border: solid 3px #4e3322;;
+  color: #4e3322;;
+}
+.pro{
+  width: 200px;
+  margin-top: 25px;
+} 

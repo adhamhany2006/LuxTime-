@@ -1,0 +1,632 @@
+/*Start Google Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+/*End Googal Font*/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box
+}
+h3{
+  padding: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 50px;
+  color: #4D2D143D;
+  text-transform: uppercase
+}
+.header{
+  background: #4e3322;
+}
+.up-header{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.up-header .sear{
+  padding: 10px;
+  outline: none;
+  border-radius: 25px;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #4e3322;
+  font-family: sans-serif;
+  border: none;
+  background: snow;
+}
+.up-header i{
+  margin: 15px;
+  font-size: 27px;
+  color: snow;
+  transition: 0.6s
+}
+.up-header i:hover{
+  transition: 0.6s;
+  transform: translate(0,-10px);
+  font-size: 30px;
+  color: #dcad6e;
+}
+.up-header .logo2{
+  width: 100px;
+}
+.container{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container ul li{
+  display: inline-block;
+  margin: 10px;
+}
+.container ul li a{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #7f6355;
+  transition: 0.6s;
+}
+.container ul li a:hover{
+  transition: 0.6s;
+  background: #7f6355;
+  color: snow;
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  font-family: serif;
+}
+.logo{
+  font-family: "Lumanosimo", cursive;
+  font-weight: 800;
+  color: #7f6355;
+  font-size: 30px
+}
+
+.contant{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 27vh;
+  background: linear-gradient(45deg, #ddd,#eee);
+}
+.text-contant span{
+  margin: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 25px;
+  color: #7f6355;
+}
+.text-contant h1{
+  margin: 15px;
+  font-family: "Lumanosimo", cursive;
+  font-weight: 800;
+  font-size: 50px;
+  color: #4e3322;
+}
+.text-contant p{
+  width: 450px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.btn1{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  font-size: 25px;
+  background: #4e3322;;
+  color: snow;
+  border: none;
+  transition: 0.6s;
+}
+.btn1:hover{
+  transition: 0.6s;
+  background: transparent;
+  border: solid 3px #4e3322;;
+  color: #4e3322;;
+}
+.btn2{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  font-size: 25px;
+  background: transparent;
+  color: #4e3322;;
+  border: solid 3px #4e3322;;
+  transition: 0.6s;
+}
+.btn2:hover{
+  transition: 0.6s;
+  background: #4e3322;;
+  border: none;
+  color: snow;;
+}
+.cont{
+  width: 400px;
+}
+
+/*********Start About*********/
+
+.about{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(img/about2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+}
+.text-about span{
+  margin: 15px;
+  font-family: monospace;
+  font-size: 25px;
+  color: snow;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.text-about h2{
+  margin: 15px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Lumanosimo", cursive;
+  color: #4e3322;
+  text-shadow: 0 0 10px snow, 
+               0 0 20px snow, 
+               0 0 30px snow, 
+               0 0 40px snow;
+}
+.text-about p{
+  margin: 15px;
+  width: 450px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  color: snow;;
+}
+.btn-abt{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  font-size: 25px;
+  background: transparent;
+  color: snow;
+  border: solid 3px snow;
+  transition: 0.6s;
+}
+.btn-abt:hover{
+  transition: 0.6s;
+  background: snow;
+  border: none;
+  color: #4e3322;;
+}
+.abt{
+  width: 450px;
+}
+/*********End About*********/
+/*********Start Services*********/
+
+.services{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 25px;
+  text-align: center;
+}
+.text-srv{
+  margin: 15px;
+  font-size: 25px;
+  color: #4e3322;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.textp-srv{
+  margin: auto;
+  width: 300px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.srv{
+  margin: 15px;
+  width: 70px;
+}
+/*********End Services*********/
+
+/*********Start Products*********/
+.nav-products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+.nav-products li{
+  display: inline-block;
+  margin: 15px;
+}
+.nav-products li a{
+  font-size: 22px;
+  border: solid 3px #4e3322;
+  padding: 5px;
+  color: #4e3322;
+  transition: 0.6s;
+}
+.nav-products li a:hover{
+  transition: 0.6s;
+  background: #4e3322;
+  color: snow;
+}
+
+.products{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text-pro{
+  margin: 15px;
+  font-size: 25px;
+  color: #4e3322;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.textp-pro{
+  width: 250px;
+  margin: 15px;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px
+}
+.price-pro{
+  margin: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  color: #4e3322;
+  font-size: 20px
+}
+.price-pro del{
+  margin-right: 15px;
+  text-decoration: line-through;
+  color: darkred;
+  text-shadow: 0 0 0 #000;
+}
+.btn-pro{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 25px;
+  background: #4e3322;;
+  color: snow;
+  border: none;
+  border-radius: 25px;
+  transition: 0.6s;
+}
+.btn-pro:hover{
+  transition: 0.6s;
+  background: transparent;
+  border: solid 3px #4e3322;;
+  color: #4e3322;;
+}
+.pro{
+  width: 200px;
+  margin-top: 25px;
+}
+/*********End Products*********/
+
+/*********Start Book-Watch*********/
+
+.book-watch{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+}
+.form-watch{
+  border: solid 7px #ddd;
+  width: 100%;
+}
+.form-watch h2{
+  margin: 15px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #4e3322;
+  text-align: center;
+}
+.form-watch input{
+  margin: 15px;
+  padding: 7px;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  background: #ddd;
+  border-radius: 20px;
+  transition: 0.6s;
+}
+.form-watch input:hover{
+  transition: 0.6s;
+  box-shadow: 0 0 10px 0 #4e3322;
+  background: #4e3322;
+  color: snow;
+}
+.form-watch .btn-wat{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  font-size: 25px;
+  background: #4e3322;
+  color: snow;
+  border: none;
+  border-radius: 0px;
+  transition: 0.6s;
+}
+.form-watch .btn-wat:hover{
+  transition: 0.6s;
+  background: transparent;
+  border: solid 3px #4e3322;
+  color: #4e3322;
+}
+.img-watch p{
+  margin: 15px;
+  width: 450px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.wat{
+  width: 370px;
+}
+
+/*********End Book-Watch*********/
+
+/*********Start Works*********/
+
+.works{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.wor{
+  margin-top: 15px;
+  width: 250px;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+.wor:hover{
+  transition: 0.6s;
+  transform: translate(0,-15px);
+  box-shadow: 0 0 20px 0 #4e3322;
+}
+
+/*********End Works*********/
+
+/*********Start Design*********/
+
+.designs{
+  background-image: url(img/design.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 27vh;
+  display: flex;
+  justify-content: right;
+  align-items: center
+}
+
+.text-design span{
+  margin: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 25px;
+  color: snow;
+}
+.text-design h2{
+  margin: 15px;
+  font-size: 50px;
+  font-family: "Lumanosimo", cursive;
+  color: snow;
+  font-weight: 800;
+  text-shadow: 0 0 10px #4e3322,
+               0 0 20px #4e3322,
+               0 0 30px #4e3322,
+               0 0 40px #4e3322;
+}
+.text-design p{
+  margin: 15px;
+  width: 450px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: snow;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.btn-des{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  font-size: 25px;
+  background: transparent;
+  color: snow;
+  border: solid 3px snow;
+  transition: 0.6s;
+}
+.btn-des:hover{
+  transition: 0.6s;
+  background: #4e3322;
+  border: none;
+  color: snow;;
+}
+/*********End Design*********/
+
+/*********Start Offers*********/
+.offers{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-offer span{
+  margin: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.text-offer h2{
+  margin: 15px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Lumanosimo", cursive;
+  color: #4e3322
+}
+.text-offer p{
+  width: 450px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.off{
+  width: 450px;
+}
+/*********End Offers*********/
+
+/*********Start Statistics*********/
+
+.statistics{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background: #4e3322;
+}
+.text-statistics{
+  margin: 15px;
+}
+.text-statistics h2{
+  margin: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: snow;
+  font-family: "Lumanosimo", cursive;
+}
+.text-statistics p{
+  font-size: 35px;
+  font-family: serif;
+  font-weight: 800;
+  color: snow;
+}
+/*********End Statistics*********/
+
+/*********Start Blogs*********/
+.blogs{
+  background: #111;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text-blog p{
+  margin: 15px;
+  width: 200px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: snow;
+}
+.logo3{
+  width: 150px;
+}
+.text2-blog{
+  text-align: center;
+}
+.text2-blog h2{
+  margin: 15px;
+  font-size: 35px;
+  color: snow;
+  text-shadow: 0 0 10px #4e3322,
+               0 0 20px #4e3322,
+               0 0 30px #4e3322,
+               0 0 40px #4e3322;
+}
+.text2-blog .text2{
+  display: flex;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: snow;
+  border-bottom: solid 3px snow;
+}
+
+
+.text3-blog{
+  text-align: center;
+}
+.text3-blog h2{
+  margin: 15px;
+  font-size: 35px;
+  color: snow;
+  text-shadow: 0 0 10px #4e3322,
+               0 0 20px #4e3322,
+               0 0 30px #4e3322,
+               0 0 40px #4e3322;
+}
+.text3-blog .text3{
+  display: flex;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: snow;
+  border-bottom: solid 3px snow;
+} 
+
+
+.text4-blog{
+  text-align: center;
+}
+.text4-blog h2{
+  margin: 15px;
+  font-size: 35px;
+  color: snow;
+  text-shadow: 0 0 10px #4e3322,
+               0 0 20px #4e3322,
+               0 0 30px #4e3322,
+               0 0 40px #4e3322;
+}
+.text4-blog .text4{
+  display: flex;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: snow;
+  border-bottom: solid 3px snow;
+} 
+/*********End Blogs*********/
